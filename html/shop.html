@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500&family=Urbanist:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="icon" type="image/png" href="../img/logo.png">
+    <title>Offthetoe | Shop</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="logo">
+            <img src="../img/logo.png" alt="Offthetoe Logo">
+            <div class="logo-separator">|</div>
+            <h1>OFF<span>THE</span>TOE</h1>
+        </div>
+        
+        <div class="nav-links">
+            <a href="../index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="shop.html" class="nav-link active">Shop</a>
+            <a href="see_them_in_action.html" class="nav-link">See Them In Action</a>
+            <a href="the_style_stride.html" class="nav-link">The Style Stride</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+        
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="shop-container">
+        <!-- Shop Header -->
+        <section class="shop-header">
+            <h1 class="shop-title">FRESH KICKS COLLECTION</h1>
+            <p class="shop-subtitle">Streetwear essentials for the authentic soul</p>
+            <div class="header-decoration">
+                <div class="deco-line"></div>
+                <i class="fas fa-shoe-prints"></i>
+                <div class="deco-line"></div>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section class="products-section">
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded here by JavaScript -->
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-container">
+                <button class="load-more-btn" id="loadMoreBtn">
+                    <span class="btn-text">SEE MORE</span>
+                    <span class="btn-icon">
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                </button>
+                <p class="remaining-count" id="remainingCount"></p>
+            </div>
+        </section>
+
+        <!-- Facebook CTA -->
+        <section class="facebook-cta">
+            <div class="cta-icon">
+                <i class="fab fa-facebook-f"></i>
+            </div>
+            <h2 class="cta-title">SEE MORE ON FACEBOOK</h2>
+            <p class="cta-text">Check out our latest drops, exclusive releases, and streetwear culture on our Facebook page</p>
+            <a href="https://www.facebook.com/profile.php?id=61574832456738" target="_blank" class="facebook-btn">
+                <i class="fab fa-facebook-f"></i> Visit Our Facebook
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">OFF<span>THE</span>TOE</div>
+                <p class="footer-tagline">Streetwear kicks for the authentic</p>
+            </div>
+            
+            <div class="footer-contact">
+                <h3>CONTACT US</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> 0963 458 4361</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Brgy. Masico, Pila, Laguna</p>
+                    <p><i class="fas fa-clock"></i> Mon-Sat: 10AM - 8PM | Sun: 12PM - 6PM</p>
+                </div>
+            </div>
+            
+            <div class="footer-social">
+                <h3>FOLLOW THE MOVEMENT</h3>
+                <div class="social-icons">
+                    <a href="https://www.tiktok.com/@dexynotdex" target="_blank" class="social-icon tiktok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61574832456738" target="_blank" class="social-icon facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            © 2024 Offthetoe. All kicks reserved. | Streetwear since 2023
+        </div>
+    </footer>
+
+    <script src="../js/shop.js"></script>
+</body>
+</html>
